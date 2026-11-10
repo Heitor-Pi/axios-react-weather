@@ -35,5 +35,6 @@ export function useUserWeather() {
                 setLoading(false);
             }
         }
-    });
+        fetchWeatherData();
+    }, []);
 }
